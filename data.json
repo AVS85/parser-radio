@@ -1,6 +1,338 @@
 [
     {
-        "href": "https://online-red.com/radio/RUS-radio.html",
-        "ggg": 3
+        "href": " var player = new Playerjs({id:'player', file:'https://rusradio.hostingradio.ru/rusradio96.aacp?cb06'}); ",
+        "title": "Русское Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3?0637'}); ",
+        "title": "Радио Ретро FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic7.101.ru:8000/v3_1?9e984e9e'}); ",
+        "title": "Авторадио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic2.101.ru/a1?de47b11b'}); ",
+        "title": "Дискотека 80-х — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://radio.dline-media.com/ppr128.mp3?0651'}); ",
+        "title": "Радио Пионер FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://air.radiorecord.ru:805/sd90_320?4f9d1d1b'}); ",
+        "title": "Радио Дискотека 90-х — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://dfm.hostingradio.ru/dfm96.aacp?ccf046d4'}); ",
+        "title": "Радио DFM (Москва 101,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic3.101.ru:8000/v12_1?9b77'}); ",
+        "title": "Like FM (Москва 87,9 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ru1.volna.top/RuWave48?c837'}); ",
+        "title": "Радио Русская Волна — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://hitfm.hostingradio.ru/hitfm128.mp3?16efe0e8'}); ",
+        "title": "Радио Хит FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://live1.zharafm.ru:8000/live?c2e3'}); ",
+        "title": "Радио Жара FM (Москва 100,5 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://radio.horoshee.fm:8000/mp3?2532942d'}); ",
+        "title": " Хорошее Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://chanson.hostingradio.ru:8041/chanson128.mp3?a16e'}); ",
+        "title": "Радио Шансон — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic4.101.ru:8000/a102?6688'}); ",
+        "title": "Радио Юмор FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://emgregion.hostingradio.ru:8064/moscow.europaplus.mp3?901d452f'}); ",
+        "title": "Радио Европа Плюс — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://dorognoe.hostingradio.ru:8000/dorognoe?7ac813c5'}); ",
+        "title": "Дорожное Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://emgspb.hostingradio.ru/eldoradio128.mp3?edf22172'}); ",
+        "title": "Эльдорадио (Спб 101,4 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic3.101.ru:8000/a99?e36c'}); ",
+        "title": "Радио ENERGY (Москва 104,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://stream1.radiord.ru:8000/live96.aac?7e52'}); ",
+        "title": "Радио Родных Дорог — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://variant.fm:8000/RADIO7-32?3a44'}); ",
+        "title": "Радио 7 На семи холмах — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://hfm.volna.top/HypeFM?890a9327'}); ",
+        "title": "Радио Хайп FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://eu3.radioboss.fm:8207/stream?c2bf8a82'}); ",
+        "title": "Радио Город Кудрово — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic7.101.ru:8000/a101?f2bb'}); ",
+        "title": "Радио Романтика — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic3.101.ru:8000/a202?273a5083'}); ",
+        "title": "Comedy Radio (Москва 102,5 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://air.radiorecord.ru:805/rr_320?d6be'}); ",
+        "title": "Radio Record (106,3 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://choco.hostingradio.ru:10010/fm?b406e84b'}); ",
+        "title": "Радио Шоколад (98,0 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.newradio.cdnvideo.ru/newradio3?5d3f'}); ",
+        "title": "Новое Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.stranafm.cdnvideo.ru/stranafm_128?5190'}); ",
+        "title": "Страна FM (Москва 89,9 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps?c0b2'}); ",
+        "title": "Радио Маяк (Москва 103,4 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_192kbps?e06e'}); ",
+        "title": "Радио России — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://tntradio.hostingradio.ru:8027/tntradio128.mp3?9e67'}); ",
+        "title": "ТНТ Music Radio — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps?3d56'}); ",
+        "title": "Радио Вести FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://bookradio.hostingradio.ru:8069/fm?589b'}); ",
+        "title": "Радио Книга (Москва 105,0 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic7.101.ru:8000/a200?5111'}); ",
+        "title": "Радио Relax FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://air.radiorecord.ru:805/chil_320?a7c4'}); ",
+        "title": "Radio Record: ChillOut — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://stream.radiometro.ru:8230/;stream.nsv?7021'}); ",
+        "title": "Radio Metro (Санкт-Петербург 102,4 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://montecarlo.hostingradio.ru/montecarlo96.aacp?2326'}); ",
+        "title": "Радио Монте-Карло — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe.streamr.ru/best-128.mp3?18202460'}); ",
+        "title": "Радио Best FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.vgtrk.cdnvideo.ru/kulturafm_mp3_128kbps?0c71'}); ",
+        "title": "Радио Культура — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://radiomv.hostingradio.ru:80/radiomv128.mp3?6db2'}); ",
+        "title": "Радио Милицейская Волна — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://78.159.239.19:8000/su?24de'}); ",
+        "title": "Радио Ностальжи (Пермь 101,5 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://185.53.169.117:8000/128?6d17a90d'}); ",
+        "title": "Радио Атмосфера — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://online1.gkvr.ru:8000/radiola_eka_64.aac?3803'}); ",
+        "title": "Радиола (Екатеринбург 106,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://icecast-zvezda.cdnvideo.ru/zvezda_128?2861'}); ",
+        "title": "Радио Звезда (95,6 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://stream128.melodiafm.spb.ru:8000/melodia128?d53a'}); ",
+        "title": "Радио Мелодия (Санкт-Петербург) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://62.109.3.230/stalingrad.mp3?b11b'}); ",
+        "title": "Радио Сталинград — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://109.239.129.43:8010/megapolis-48.aac?6caf'}); ",
+        "title": "Радио Мегаполис (89,5 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://www.nostalgia.fm:8000/nostalgiafm.mp3?a11d'}); ",
+        "title": "Nostalgia FM (Санкт-Петербург) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://rr-bessmertnyipolk.hostingradio.ru/bessmertnyipolk96.aacp?a654603'}); ",
+        "title": "Радио Бессмертный Полк — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://radiowired.1tvcrimea.ru:9001/stream_provod.mp3?8becd3bc'}); ",
+        "title": "Радио «Крым. Точка» — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://109.172.56.94:8000/;stream.nsv?9e4b'}); ",
+        "title": "Радио Nostalgie (Махачкала 93,9 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://emg02.hostingradio.ru/keksfm64.aac?54d8c90f'}); ",
+        "title": "Радио Кекс FM — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe.streamr.ru/nashe20-128.mp3?cf9c'}); ",
+        "title": "Радио Наше 2.0 — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://kpradio.hostingradio.ru:8000/128?73a0'}); ",
+        "title": "Радио Комсомольская Правда — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe1.hostingradio.ru/nashe-128.mp3?531d'}); ",
+        "title": "Наше Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://93.157.14.109:8000/nfm?3e95'}); ",
+        "title": "Новороссия Rocks (106,8 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://maximum.hostingradio.ru/maximum96.aacp?c66a'}); ",
+        "title": "Радио Maximum — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://setmedia.ru:8000/high5?69af'}); ",
+        "title": "Радио Подмосковные вечера — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://media.govoritmoskva.ru:8880/ru64.mp3?f79e84'}); ",
+        "title": "Радио Говорит Москва (94,8 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://air.radiorecord.ru:805/1980_320?bc90'}); ",
+        "title": "Radio Record: 1980-e — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://iskatel.hostingradio.ru:8015/iskatel-128.mp3?47f5'}); ",
+        "title": "Радио Искатель — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe.streamr.ru/ultra-128.mp3?6e7d'}); ",
+        "title": "Radio Ultra (Радио Ультра) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.radiorocks.cdnvideo.ru/roks.stream?dcf3'}); ",
+        "title": "Радио Рокс (Санкт-Петербург) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://a6.radioheart.ru:9046/RH1972?b6d9'}); ",
+        "title": "Rock’n’roll FM (Геленджик 91,5 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://91.214.82.110:8002/online?0a3b5439'}); ",
+        "title": "Казачье Радио (Луганск 101,8 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe.streamr.ru/jazz-128.mp3?43e9'}); ",
+        "title": "Радио JAZZ (Москва 89,1 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://sc-sax4ever.1.fm:10148/?8bc5'}); ",
+        "title": "Радио Sax4Love — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://jfm1.hostingradio.ru:14536/rcstream.mp3?b8b0'}); ",
+        "title": "Радио Классик — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3?9639'}); ",
+        "title": "Радио Орфей (Москва 99,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://213.177.106.78:8006/;?05bd'}); ",
+        "title": "Радио Образ (Нижний Новгород 98,0 FM) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://ic3.101.ru:8000/v14_1?feaa8d12'}); ",
+        "title": "Детское Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://148.251.184.14:8036/;?b188636f'}); ",
+        "title": "Радио 1Jazz — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://live.radio7.su:9000/deti256?f9b1'}); ",
+        "title": "Ребячья Республика (89,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://stream5.radiostyle.ru:8005/theatre?9caa'}); ",
+        "title": "Радио МУЗКОМ — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://misato.ru-hoster.com:8082/stream?2d8b'}); ",
+        "title": "Радио Поляна Сказок — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'https://rr-detskijkanal.hostingradio.ru/detskijkanal96.aacp?f8b33a45'}); ",
+        "title": "Детский Канал — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://nashe.streamr.ru/rock-128.mp3?7034'}); ",
+        "title": "Rock FM (Москва 95,2 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://live.borneo.ru:8888/bv128?9a25291b'}); ",
+        "title": "Радио Благовестие (Воронеж 73,55 УКВ) — онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://gamaun.online:8020/radio?f2315971'}); ",
+        "title": "Радио Гамаюн — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://79.165.152.200:8000/stream.mp3?7fe0'}); ",
+        "title": "Народное Радио — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://radiovera.hostingradio.ru:8007/radiovera_128?9fc4'}); ",
+        "title": "Радио ВЕРА (Москва 100,9 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://icecast.radonezh.cdnvideo.ru:8000/rad128?5905'}); ",
+        "title": "Радонеж (Москва 72,92 УКВ) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://www.grad-petrov.ru:8093/mp3-40?b73ceb86'}); ",
+        "title": "Радио Град Петров (73,1 FM) — слушать онлайн"
+    },
+    {
+        "href": " var player = new Playerjs({id:'player', file:'http://91.190.117.131:8000/live?16222275'}); ",
+        "title": "Радио Эрмитаж (90,1 FM) — слушать онлайн"
     }
 ]

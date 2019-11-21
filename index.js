@@ -8,13 +8,16 @@ var cheerio = require('cheerio');
 var resolve = require('url').resolve;
 var fs = require('fs');
 
-var URL = 'https://online-red.com/radio/RUS-radio.html';
+var URL = 'https://online-red.com/radio/index.html';
+// var URL = 'https://online-red.com/radio/RUS-radio.html';
 var results = [];
 
 // `tress` последовательно вызывает наш обработчик для каждой ссылки в очереди
 console.log(`
-*********************************************
-`);
+
+
+
+*********************************************`);
 
 var q = tress(function(url, callback){
 
@@ -23,74 +26,60 @@ var q = tress(function(url, callback){
         if (err) throw err;
         // console.log(res);
         
-        // здесь делаем парсинг страницы из res.body
-            // делаем results.push для данных о новости
-            // делаем q.push для ссылок на обработку
-            // парсим DOM
-            var $ = cheerio.load(res.body);
+        // ! **** ПАРСИНГ СТРАНИЦЫ ИЗ res.body
+        // делаем results.push для данных о новости
+        // делаем q.push для ссылок на обработку
+        // парсим DOM
+        // console.log(`typeof = ${typeof(res)}`);
+        
 
-            var el = $('.playerjs-audio')
-            //информация о новости
-            if(el.length > 0){
+
+        var $ = cheerio.load(res.body);
+
+        var el = $('.playerjs-audio')
+        //информация о радио
+        if(el.length > 0){
+            console.log(`Length = ${el.length}`);
+            console.log(typeof(el));
+            
+            let link = el.next().html()
+            let title = el.prev().text()
+
+            console.log(link);
+            
+            // el.each(function(i, item) {
+            //     console.log(item.attribs);
                 
-                let link = el.next().html()
-                console.log(link);
-                link = 'https://'
-
-                // regexp = /^(http?:\/\/)?([\w\.]+)\.([a-z]{2,6}\.?)(\/[\w\.]*)*\/?$/gmi;
-                regexp = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
-
-                // regexp = /^(https?:\/\/)$/gmi
-
-                let rest = link.match(regexp);
-                console.log(rest);
-                
-
-                // for(let i of link){
-                //     console.log(link[i] + ' j');
-                // }
-                // el.each(function(i, item) {
-                //     let x = item.hasClass('fruit')
-                //     console.log(x);
-                    
-                // });
-                
-                
-
-
-
-
-
-
-
-
-
-
-
-                results.push({
-                    // title: $('span.jsx-844015450').text(),
-                    // date: $('.b_infopost>.date').text(),
-                    href: url,
-                    ggg: 3,
-                    // size: $('.jsx-844015450').text().length
-                });
-            } else {
-                console.log('НЕ НАЙДЕНО');
-                
-            }
-
-            //список новостей
-            // $('.b_rewiev p>a').each(function() {
-            //     q.push($(this).attr('href'));
             // });
 
-            //паджинатор
-            // $('.bpr_next>a').each(function() {
-            //     // не забываем привести относительный адрес ссылки к абсолютному
-            //     q.push(resolve(URL, $(this).attr('href')));
-            // });
+            results.push({
+                // title: $('span.jsx-844015450').text(),
+                // date: $('.b_infopost>.date').text(),
+                href: link,
+                title: title,
+                // size: $('.jsx-844015450').text().length
+            });
 
-        callback(); //вызываем callback в конце
+            (function(){
+                require('fs').writeFileSync('./data.json', JSON.stringify(results, null, 4));
+            })()
+
+        } else console.log('НЕ НАЙДЕНО');
+
+
+        // ! **** ЗАПОЛНЯЕМ МАССИВ ССЫЛОК ДЛЯ ОБХОДА
+        let nextPage = $('table#table-15 tr td>a');
+        console.log(`nextPage.count = ${nextPage.length}`);
+        
+        
+        nextPage.each(function(i, item) {
+            // не забываем привести относительный адрес ссылки к абсолютному
+            q.push(resolve(URL, $(this).attr('href')));
+            console.log(resolve(URL, $(this).attr('href')));
+        });
+
+        // ! **** вызываем callback в конце
+        callback(); // зачем? :)
     });
 
 }, 10); // запускаем 10 параллельных потоков
