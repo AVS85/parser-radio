@@ -47,17 +47,20 @@ var q = tress(function(url, callback){
 
             console.log(link);
             
-            // el.each(function(i, item) {
-            //     console.log(item.attribs);
-                
-            // });
-
+            // let regexp = /([^\"=]{2}|^)((https?|ftp):\/\/\S+[^\s.,> )\];'\"!?])/i; 
+            // let res = str2.match(regexp)[2]
+           
+           // парсер URL из строки вида  " var player = new Playerjs({id:'player', file:'https://rusradio.hostingradio.ru/rusradio96.aacp?cb06'}); "
+            link.split('\'').forEach((el) => {
+                 if (el.indexOf('http') != -1) {
+                      link = el
+                      return
+                 }
+            })
+            
             results.push({
-                // title: $('span.jsx-844015450').text(),
-                // date: $('.b_infopost>.date').text(),
                 href: link,
                 title: title,
-                // size: $('.jsx-844015450').text().length
             });
 
             (function(){
